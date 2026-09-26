@@ -1,0 +1,16 @@
+# Carpetas de build de Qt Creator / CMake (generan rutas muy largas en Windows)
+build/
+build-*/
+
+# Archivos de usuario de Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# Artefactos comunes de compilación
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
